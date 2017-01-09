@@ -1,3 +1,4 @@
+exercice 16
 Concevoir un algorithme calculant la commission que recevra un employé en fonction de la classe d'employé auquelle il appartient :
 
 §         Classe 1
@@ -54,9 +55,13 @@ Début
     fsi
   Afficher(Nom,"esclave n° ", Num,")", "doit percevoir une commissio, de ", grosseCommission, " euros")
 
+variable rép= erreur
+si employé=1
+calculs rép= phrase
+si classe=2
+réponse=phrase
 
-
-  *Description du problème 17*
+*Description du problème 17*
 
 Concevoir un algorithme calculant la moyenne de 3 notes d'un étudiant et qui détermine la cote de l'étudiant :
 
