@@ -432,7 +432,7 @@ Début
 		sinon petit<-tab[compteur+1]
 	fsi
 	FPOUR
-afficher "le plus petit nombre", petit)
+afficher ("le plus petit nombre", petit)
 Fin
 
 
@@ -459,3 +459,4 @@ début
 				alors nbMini<-Tableau[compteur]
 			  fsi
 	FINPOUR
+Afficher ("le plus petit nombre", petit)
