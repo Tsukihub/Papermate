@@ -460,3 +460,19 @@ début
 			  fsi
 	FINPOUR
 Afficher ("le plus petit nombre", petit)
+test
+index=>Nombre=>noDeTours init,end=> question 
+0=>12=>1,2=>oui
+1=>8=>2,3=>oui
+2=>24=>3,4=>oui(réponse utilisateur)
+3=>100=>4,5=>non
+
+nbmini => compteur 
+12=>0
+8=>1
+8=>2
+8=>3
+
+
+
+
