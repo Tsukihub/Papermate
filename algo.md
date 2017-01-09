@@ -459,7 +459,7 @@ début
 				alors nbMini<-Tableau[compteur]
 			  fsi
 	FINPOUR
-Afficher ("le plus petit nombre", petit)
+Afficher ("le plus petit nombre", nbMini)
 test
 index=>Nombre=>noDeTours init,end=> question 
 0=>12=>1,2=>oui
@@ -473,6 +473,31 @@ nbmini => compteur
 8=>2
 8=>3
 
+js translation
+====
 
+function plusPetit()
+{prend un nombre illimité de nombres et retourne le plus petit}
+Var tableau[]= newArray
+var question= "oui";
+Var noDeTours,compteur,nbMini;
+noDeTours=1;
+while(question="oui"){
+tableau.push(parsInt(prompt("donne moi un nombre entier")));
+		saisir (tableau[])
+		if (noDeTours>=3){
+			question=prompt("on continue? Oui/Non")
+		}
+	
+		}
+		noDeTours++
+	}
+	nbMini=tableau[0]
+	for(compteur=0; compteur<=tableau.lengh-1; compteur++){
+		if (tableau[compteur]<-nbMini){
+				nbMini=Tableau[compteur]
+			  }
+	}
 
+alert("le plus petit nombre", +nbMini)
 
